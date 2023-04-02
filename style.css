@@ -3,24 +3,98 @@ body {
   width: 100%;
   display: grid;
   justify-content: center;
+  background-color: #f1f1f1;
+}
+
+.redes_icons {
+  padding-left: 1em;
+  padding-top: 1em;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  display: grid;
+}
+
+.fa-brands {
+  padding-bottom: 10px;
+}
+
+.fa-instagram,
+.fa-facebook,
+.fa-twitter,
+.fa-youtube {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.fa-instagram:hover,
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-youtube:hover {
+  opacity: 0.5;
+}
+
+.img_principal {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2em;
+  border-bottom: 1px solid;
+  border-bottom-style: dotted;
 }
 
 .header_logo {
   display: grid;
   justify-content: center;
   padding-top: 2em;
+  padding-bottom: 2em;
 }
 
-.header_subtitle {
-  font-size: small;
-  display: grid;
-  justify-content: center;
-  padding-top: 10px;
+.logo {
+  opacity: 1;
+  transition: opacity 0.5s ease;
 }
 
-.nav_links {
+.logo:hover {
+  opacity: 0.7;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navlink1,
+.navlink2,
+.navlink3,
+.navlink4,
+.navlink5 {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.navlink1:hover,
+.navlink2:hover,
+.navlink3:hover,
+.navlink4:hover,
+.navlink5:hover {
+  opacity: 0.5;
+}
+
+ul {
   display: flex;
   justify-content: center;
+  padding-bottom: 1em;
+  text-decoration: none;
+  font-size: large;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  color: black;
 }
 
 .navlinks {
@@ -43,20 +117,28 @@ body {
   right: 0;
   background-color: rgba(0, 0, 0, 1);
   color: white;
-  transition: visibility 10s, opacity 0.5s ease;
+  font-weight: 300;
+  transition: visibility 1s, opacity 0.5s ease;
 }
 
 .col_ilus:hover .sup_ilus {
-  visibility: hidden;
+  visibility: visible;
   opacity: 0.5;
 }
 .col_textil:hover .sup_tex {
-  visibility: hidden;
+  visibility: visible;
   opacity: 0.5;
 }
 .col_figuras:hover .sup_fig {
-  visibility: hidden;
+  visibility: visible;
   opacity: 0.5;
+}
+
+.trabajos_title {
+  font-size: larger;
+  font-weight: 600;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 /*Bio*/
@@ -81,12 +163,35 @@ body {
 
 /*Talleres*/
 
+.talleres_title {
+  font-size: x-large;
+  padding-bottom: 1em;
+}
+
 .div_talleres {
   font-size: small;
 }
 
-.list-group-item {
+.card {
+  font-size: small;
+}
+
+.caja1 {
   background-color: aqua;
+}
+
+/*Contacto*/
+
+.contacto {
+  font-size: small;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.mb-4 {
+  width: 500px;
 }
 
 /*Footer*/

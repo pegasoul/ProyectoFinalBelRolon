@@ -22,26 +22,49 @@
       rel="stylesheet"
     />
 
+    <!--Link font-awesome-->
+    <script src="https://kit.fontawesome.com/796aebcd1d.js" crossorigin="anonymous"></script>
+
     <!--style-->
     <link rel="stylesheet" href="style.css" />
+
   </head>
   <body>
+
+    <!--div icons redes-->
+    <div class="redes_icons">
+       <a href="https://instagram.com/pegasoul" target="_blank"><i class="fa-brands fa-instagram fa-2x" style="color: rgb(0, 0, 0);"></i></a>
+       <a href="https://facebook.com/pegasoul" target="_blank"><i class="fa-brands fa-facebook fa-2x" style="color: rgb(0, 0, 0);"></i></a>
+       <a href="https://twitter.com/pegasoul" target="_blank"><i class="fa-brands fa-twitter fa-2x" style="color: rgb(0, 0, 0);"></i></a>
+       <a href="https://www.youtube.com/@pegasoul2764" target="_blank"><i class="fa-brands fa-youtube fa-2x" style="color: rgb(0, 0, 0);"></i></a>
+    </div>
+
     <!--header-->
     <header>
       <div class="header_logo">
         <a href="./index.html"
-          ><img src="./img/logo.png" alt="Logo Pegasoul"
+          ><img class="logo" src="./img/logo.png" alt="Logo Pegasoul"
         /></a>
       </div>
-      <!--subtitle-->
-      <div class="header_subtitle">by Bel Rolón</div>
       <!--Navigation links-->
       <nav class="nav_links">
-        <a href="./pages/bio.html" class="navlinks">Bio</a>
-        <a href="./pages/talleres.html" class="navlinks">Talleres</a>
-        <a href="./pages/eventos.html" class="navlinks">Eventos</a>
-        <a href="..." class="navlinks">Trabajos</a>
-        <a href="./pages/contacto.html" class="navlinks">Contacto</a>
+        <ul>
+          <li class="navlink1">
+            <a href="./pages/bio.html" class="navlinks">Bio</a>
+          </li>
+          <li class="navlink2">
+            <a href="./pages/talleres.html" class="navlinks">Talleres</a>
+          </li>
+          <li class="navlink3">
+            <a href="./pages/eventos.html" class="navlinks">Eventos</a>
+          </li>
+          <li class="navlink4">
+             <a href="#trabajos" class="navlinks" id="abajo">Trabajos</a>
+          </li>
+          <li class="navlink5">
+            <a href="./pages/contacto.html" class="navlinks">Contacto</a>
+          </li>
+        </ul>
       </nav>
     </header>
 
@@ -49,12 +72,14 @@
     <main class="main_index">
       <!--imagen principal-->
       <div class="img_principal">
-        <img src="./img/weird_fishes.jpg" width="1000px" />
+        <img src="./img/weird_fishes.png" width="1000px" />
       </div>
 
       <!--links de la bio-->
+      <section id="trabajos">
       <div class="container_home text-center">
         <div class="row">
+          <h4 class="trabajos_title">Trabajos</h4>
           <!--Link Ilustración-->
           <div class="col col_ilus">
             <a href=""
@@ -103,7 +128,7 @@
     ></script>
 
     <!--Footer-->
-    <footer>©Pegasoul 2023</footer>
+    <footer>©Pegasoul by Bel Rolón | 2023</footer>
     <script src="scrypt.js"></script>
   </body>
 </html>

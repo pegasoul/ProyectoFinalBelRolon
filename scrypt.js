@@ -1,3 +1,7 @@
 function mensajedeinscripcion() {
-  alert("Isncripción exitosa");
+  alert("☆ Gracias por inscribirte ☆");
+}
+
+function mensajeenviado() {
+  alert("☆ Mensaje enviado ☆");
 }
