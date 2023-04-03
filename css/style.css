@@ -104,14 +104,14 @@ ol {
 .col_ilus,
 .col_textil,
 .col_figuras {
-  position: relative;
-  display: inline-block;
+  display: grid;
+  justify-content: center;
 }
 
 .sup_ilus,
 .sup_tex,
 .sup_fig {
-  position: relative;
+  width: 100%;
   bottom: 0;
   left: 0;
   right: 0;
@@ -192,6 +192,149 @@ ol {
 
 .mb-4 {
   width: 500px;
+}
+
+/*ilustración*/
+
+.header_ilus {
+  position: initial;
+  width: 100%;
+  justify-content: center;
+}
+
+.grid_ilus_1,
+.grid_ilus_2,
+.grid_ilus_3,
+.grid_ilus_4,
+.grid_ilus_5,
+.grid_ilus_6,
+.grid_ilus_7,
+.grid_ilus_8,
+.grid_ilus_9 {
+  display: grid;
+  padding: 1em;
+}
+
+.grid_ilus {
+  display: grid;
+  justify-content: center;
+  font-size: x-small;
+  grid-template-columns: repeat(3, 3fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 1em;
+  padding-top: 1em;
+}
+
+.box_ilus_1,
+.box_ilus_2,
+.box_ilus_3,
+.box_ilus_4,
+.box_ilus_5,
+.box_ilus_6,
+.box_ilus_7,
+.box_ilus_8,
+.box_ilus_9 {
+  display: grid;
+  justify-content: center;
+}
+
+/*textil*/
+
+.div_textil_2,
+.div_textil_title {
+  font-weight: 800;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.div_textil_title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/*figuras*/
+
+.grid_ilus p {
+  display: flex;
+  justify-content: center;
+}
+
+/*espacios*/
+
+.espacio_ilus,
+.espacio_textil,
+.espacio_figuras {
+  height: 30px;
+  border-bottom: 1px dotted black;
+}
+
+/*eventos*/
+
+.container_animexpo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px dotted black;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.img_animexpo {
+  max-width: 200px;
+  margin-right: 20px;
+}
+
+.text_animexpo {
+  flex: 1;
+}
+
+.h5_animexpo {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.p_animexpo {
+  font-size: 12px;
+}
+
+.container_expo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px dotted black;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.img_expo {
+  max-width: 200px;
+  margin-right: 20px;
+}
+
+.text_expo {
+  flex: 1;
+}
+
+.h5_expo {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.p_expo {
+  font-size: 12px;
+}
+
+.a_eventos {
+  text-decoration: underline;
+}
+
+.esoestodo {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 /*Footer*/
