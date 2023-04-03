@@ -144,7 +144,7 @@ ol {
 /*Bio*/
 .bio {
   width: 700px;
-  display: grid;
+  display: flex;
 }
 
 .bio_img,
@@ -153,7 +153,8 @@ ol {
 }
 
 .bio_text {
-  padding-top: 1em;
+  padding-top: 2em;
+  padding-left: 2em;
 }
 
 .container {
