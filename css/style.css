@@ -148,8 +148,11 @@ ol {
 }
 
 .bio_img,
+.img_expo,
+.img_animexpo,
 .bio_text {
   font-size: small;
+  border-radius: 10px;
 }
 
 .bio_text {
@@ -346,3 +349,5 @@ footer {
   padding-top: 3em;
   padding-bottom: 3em;
 }
+
+/*responsive*/
